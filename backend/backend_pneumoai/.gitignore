@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+logs/
+.pytest_cache/
+.ruff_cache/
+# Modelos treinados e dados clínicos não vão para o Git
+ml_models/*.keras
+ml_models/*.h5
